@@ -33,9 +33,9 @@ public class output {
 
     public static void writeStringTabSelectPower(String[][] tab, int col, double val){
         String out;
-        for (int i = 0; i < tab.length; i++) {
+        for (int i = 1; i < tab.length; i++) {
             out="";
-            for (int j = 0; j < tab[i].length; j++) {
+            for (int j = 1; j < tab[i].length; j++) {
                 out+=tab[i][j].replace("_", " ")+" ";
                 if(j<tab[i].length-1)
                     out+=" || ";
