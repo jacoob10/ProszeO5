@@ -1,4 +1,4 @@
-package start.dynamic;
+﻿package start.dynamic;
 
 import start.baza.danych;
 import start.output;
@@ -94,7 +94,7 @@ public class Gaming extends Main {
             temp = ID2();
             while(danych.SOFTWARE.length < temp+1 || temp+1 < 0)
             {
-                System.out.println("Podano numer z poza zakresu, wybierz ID z podanego zbioru");
+                System.out.println("Podano numer niezgodny z zakresem, wybierz ID z podanego zbioru");
                 temp=ID2();
             }
             if(temp==-1) break;
