@@ -1,4 +1,4 @@
-package start;
+﻿package start;
 
 import start.Sale.Main;
 import start.baza.danych;
@@ -54,7 +54,7 @@ public class start {
         // start
         while(koniec)
         {
-        System.out.println("Wybierz co chcesz zrobic: k - konfiguracja, p - konfiguracja pod zastosowanie, w - wznowienie konfiguracji, z - zakup, s - wyjscie");
+        System.out.println("Wybierz co chcesz zrobic: k - konfiguracja, p - konfiguracja pod zastosowanie, w - wznowienie konfiguracji, z - kupno, s - wyjscie");
         Scanner in = new Scanner(System.in);
         String wybor = in.nextLine();
         wybor.toLowerCase();
@@ -79,7 +79,7 @@ public class start {
                 Main main = new Main();
                 main.Start(cena, proc);
             }
-            else if (wybor.equals("k")) {
+            else if(wybor.equals("k")) {
                 Run run = new Run();
                 run.Reset();
                 run.Start();
