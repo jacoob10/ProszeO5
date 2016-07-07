@@ -1,4 +1,4 @@
-package start.baza;
+﻿package start.baza;
 
 public class danych {
 
@@ -26,7 +26,7 @@ ID || NAZWA || CENA || STAN MAGAZYNOWY || RODZAJ
  */
 // oprogramowanie - SOFTWARE
 /*
-ID || NAZWA || CENA || STAN MAGAZYNOWY || RODZAJ
+ID || NAZWA || CENA || DOSTEPNOSC W MAGAZYNIE || RODZAJ
  */
 // akcesoria - ACCESSORY
 /*
